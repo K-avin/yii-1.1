@@ -9,11 +9,11 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<h1>Login</h1>
+<h1 style="text-align:center">Staff Login</h1>
 
-<p>Please fill out the following form with your login credentials:</p>
+<p style="text-align:center">Please fill out the following form with your login credentials:</p>
 
-<div class="form">
+<div class="form" style="text-align:center">
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'login-form',
 	'enableClientValidation'=>true,
